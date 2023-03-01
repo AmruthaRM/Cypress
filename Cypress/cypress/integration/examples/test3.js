@@ -23,6 +23,7 @@ cy.get('@productLocator').find('.product').each(($e1, index, $list) => {
 cy.get('.cart-icon > img').click()
 cy.contains('PROCEED TO CHECKOUT').click()
 cy.get('button').contains('Place Order').click()
+//done
  
 }  )
  
